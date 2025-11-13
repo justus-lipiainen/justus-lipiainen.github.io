@@ -6,6 +6,7 @@ body {
 }
     
 #gridPart1 {
+    align-items: center;
     grid-column: span 5 / span 5;
 }
 
@@ -22,7 +23,7 @@ body {
 }
 
 .gridPart {
-    border-radius: 1%;
-    height:auto;
+    border-radius: 8px;
+    opacity: calc(10%);
     background-color: darkgrey;
 }
